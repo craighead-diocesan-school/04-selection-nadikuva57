@@ -23,5 +23,15 @@ function conversation() {
 }
 
 function age() {
-  // write your code here
+  let name = prompt("What is your name?")
+  let age = prompt("How old are you?")
+
+  if (age < 16){
+    alert("Hello " + name + " you are not allowed to drive")
+  } else {
+    alert("Hello " + name + " you are not allowed to drive")
+  }
+
 }
+
+ 
